@@ -10,6 +10,12 @@ body{
     justify-content: space-between;
 }
 
+.page-width {
+    width: 100%;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
 .img-reset {
     display: block;
     width: 100%;
@@ -31,6 +37,12 @@ body{
 .navigation .logo {
     width: 100px;
     margin: 20px;
+}
+
+.navigation .logo:hover {
+    display: block;
+    transform: translate(600px);
+    transition: all 3s ease;
 }
 
 .navigation ul{
@@ -70,11 +82,35 @@ body{
 /* Section AboutUs */
 .section-about {
     padding-top: 30px;
-    padding-bottom: 300px;
+    padding-bottom: 30px;
 }
 
 .section-about .carousel {
     height: 450px;
     border-radius: 8px;
     overflow: hidden;
+    box-shadow: 0px 4px 12px 0px rgba(186,186,186,1);
+    transform: scale(1.04);
+}
+
+.section-about .hide {
+    display: none;
+}
+
+/* .section-about .show {
+    /* display: contents; */
+} */
+
+/* Social */
+.section-social {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+    border-top: 40px;
+    border: solid steelblue;
+    border-radius: 8px;
+}
+
+.section-social h2 {
+    /* background-color: slategray; */
 }

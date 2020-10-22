@@ -1,0 +1,80 @@
+body{
+    margin: 0;
+    font-family: 'Helvetica', sans-serif;
+    background-color: mintcream;
+}
+
+/* Reusable */
+.flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.img-reset {
+    display: block;
+    width: 100%;
+}
+
+.list-reset {
+    padding-left: 0;
+    list-style: none;
+}
+
+/* Navigation */
+.navigation{
+    align-items: center;
+    margin-bottom: 20px;
+    border-bottom: 1px solid gray;
+    border-bottom-left-radius: 20px;
+}
+
+.navigation .logo {
+    width: 100px;
+    margin: 20px;
+}
+
+.navigation ul{
+    display: flex;
+}
+
+.navigation li {
+    padding-right: 20px;
+}
+
+.btn {
+    background-color: lightslategray;
+    border-radius: 2px;
+    border: solid lightslategray;
+    padding: 5px;
+    font-size: medium;
+    font-family: 'Lucida Sans Unicode';
+}
+
+/* Hero */
+.hero {
+    position: relative;
+    margin: 0 30px;
+}
+
+.hero .sentence {
+    position: absolute;
+    top: 85%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    font-family: fantasy;
+}
+
+/* Section AboutUs */
+.section-about {
+    padding-top: 30px;
+    padding-bottom: 300px;
+}
+
+.section-about .carousel {
+    height: 450px;
+    border-radius: 8px;
+    overflow: hidden;
+}

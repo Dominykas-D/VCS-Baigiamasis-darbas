@@ -45,8 +45,10 @@
                 <div class="row">
                     <!-- Left side  -->
                   <div class="col">
-                    <div id="carouselExampleControls" class="carousel slide1" data-ride="carousel">
-                        <div class="carousel-inner">
+                    <div id="carouselExampleControls" class="carousel" data-ride="carousel">
+                        <div class="carousel-inner ">
+                          
+                          <div class="show" id="Cruiser">
                           <div class="carousel-item active">
                             <img src="/assets/BikeTypes/chopper_1-min.jpg" class="d-block w-100" alt="Cruiser">
                           </div>
@@ -55,10 +57,10 @@
                           </div>
                           <div class="carousel-item">
                             <img src="/assets/BikeTypes/chopper_3.jpg" class="d-block w-100" alt="Cruiser">
-                          </div>
-                          
-                   <!-- Left side 2  -->
-                           <div class="carousel-item">
+                          </div></div>                                                  
+                       <!-- Left side 2  -->
+                      <div class="show" id="Standard">
+                        <div class="carousel-item">
                             <img src="/assets/BikeTypes/standard_1.jpg" class="d-block w-100" alt="Standard">
                           </div>
                           <div class="carousel-item">
@@ -67,8 +69,11 @@
                           <div class="carousel-item">
                             <img src="/assets/BikeTypes/standard_3.jpg" class="d-block w-100" alt="Standard">
                           </div>
+                      </div>
+                           
 
-                  <!-- Left side 3 -->
+                      <!-- Left side 3 -->
+                        <div class="show" id="Sport">
                           <div class="carousel-item">
                             <img src="/assets/BikeTypes/sport_1.jpg" class="d-block w-100" alt="Sport">
                           </div>
@@ -78,8 +83,10 @@
                           <div class="carousel-item">
                             <img src="/assets/BikeTypes/sport_3.jpg" class="d-block w-100" alt="Sport">
                           </div>
+                        </div>
                           
-                  <!-- Left side 4 -->
+                      <!-- Left side 4 -->
+                       <div class="show" id="Touring">
                           <div class="carousel-item">
                             <img src="/assets/BikeTypes/touring_1.jpg" class="d-block w-100" alt="Touring">
                           </div>
@@ -89,8 +96,10 @@
                           <div class="carousel-item">
                             <img src="/assets/BikeTypes/touring_3.jpg" class="d-block w-100" alt="Touring">
                           </div>
+                        </div>
                           
-                  <!-- Left side 5 -->
+                      <!-- Left side 5 -->
+                        <div class="show" id="OffRoud">
                           <div class="carousel-item">
                             <img src="/assets/BikeTypes/OffRoud_1.jpg" class="d-block w-100" alt="OffRoud">
                           </div>
@@ -100,6 +109,7 @@
                           <div class="carousel-item">
                             <img src="/assets/BikeTypes/OffRoud_3.jpg" class="d-block w-100" alt="OffRoud">
                           </div>
+                      </div>
 
                         </div>
                         <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
@@ -119,15 +129,15 @@
                     <div class="card">
                       <div class="card-header" id="headingOne">
                         <h2 class="mb-0">
-                          <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                            Standard
+                          <button onclick = "changeClass1()" class="btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                           Cruiser
                           </button>
                         </h2>
                       </div>
 
                       <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
                         <div class="card-body">
-                          Standards, also called naked bikes or roadsters, are versatile, general-purpose street motorcycles. They are recognized primarily by their upright riding position, partway between the reclining rider posture of the cruisers and the forward leaning sport bikes. Footpegs are below the rider and handlebars are high enough to not force the rider to reach too far forward, placing the shoulders above the hips in a natural position. Because of their flexibility, lower costs, and moderate engine output, standards are particularly suited to motorcycle beginners.
+                          Cruisers are styled after American machines from the 1930s to the early 1960s, such as those made by Harley-Davidson, Indian, and Excelsior-Henderson. Harley-Davidsons largely define the cruiser category, and large-displacement V-twin engines are the norm, although other engine configurations and small to medium displacements also exist. Their engines are tuned for low-end torque, making them less demanding to ride because it is not necessary to shift as frequently to accelerate or maintain control.
                         </div>
                       </div>
                     </div>
@@ -135,21 +145,21 @@
                     <div class="card">
                       <div class="card-header" id="headingTwo">
                         <h2 class="mb-0">
-                          <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                            Cruiser
+                          <button onclick = "changeClass2()" class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            Standard
                           </button>
                         </h2>
                       </div>
                       <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
                         <div class="card-body">
-                          Cruisers are styled after American machines from the 1930s to the early 1960s, such as those made by Harley-Davidson, Indian, and Excelsior-Henderson. Harley-Davidsons largely define the cruiser category, and large-displacement V-twin engines are the norm, although other engine configurations and small to medium displacements also exist. Their engines are tuned for low-end torque, making them less demanding to ride because it is not necessary to shift as frequently to accelerate or maintain control.
+                          Standards, also called naked bikes or roadsters, are versatile, general-purpose street motorcycles. They are recognized primarily by their upright riding position, partway between the reclining rider posture of the cruisers and the forward leaning sport bikes. Footpegs are below the rider and handlebars are high enough to not force the rider to reach too far forward, placing the shoulders above the hips in a natural position. Because of their flexibility, lower costs, and moderate engine output, standards are particularly suited to motorcycle beginners.
                         </div>
                       </div>
                     </div>
                     <div class="card">
                       <div class="card-header" id="headingThree">
                         <h2 class="mb-0">
-                          <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                          <button onclick = "addClass3()" class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
                             Sport bike
                           </button>
                         </h2>
@@ -163,7 +173,7 @@
                     <div class="card">
                       <div class="card-header" id="headingFour">
                         <h2 class="mb-0">
-                          <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                          <button onclick = "addClass4()" class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
                             Touring
                           </button>
                         </h2>
@@ -179,7 +189,7 @@
                      <div class="card">
                       <div class="card-header" id="headingFive">
                         <h2 class="mb-0">
-                          <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                          <button onclick = "addClass5()" class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
                             Off-road
                           </button>
                         </h2>

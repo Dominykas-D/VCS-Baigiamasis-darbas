@@ -83,20 +83,19 @@ body{
 }
 
 .section-about .carousel {
-    height: 450px;
+    
+    height: 390px;
     border-radius: 8px;
     overflow: hidden;
     box-shadow: 0px 4px 12px 0px rgba(186,186,186,1);
     transform: scale(1.04);
 }
 
-.hide {
-    /* display: none; */
-
-    border-radius: 30px;
-    overflow: hidden;
-    box-shadow: 0px 8px 25px 0px rgba(186,186,186,1);
-    transform: scale(1.1);
+.hiden{
+    visibility: hidden;
+}
+.show {
+    visibility: visible;
 }
 
 /* Social */
@@ -119,10 +118,6 @@ body{
     .navigation .logo {
         margin: 0 auto;
     }
-
-    /* .navigation .menu {
-        display: none;
-    } */
 
     .section-social{
      flex-direction: column;

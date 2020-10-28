@@ -61,8 +61,12 @@ body{
 
 /* Hero */
 .hero {
+    display: flex;
     position: relative;
-    margin: 0 30px;
+    margin: auto;
+    max-width: 1130px;
+    border-radius: 20px;
+    overflow: hidden;
 }
 
 .hero .sentence {
@@ -91,16 +95,17 @@ body{
     transform: scale(1.04);
 }
 
-.hiden{
+.hide{
     visibility: hidden;
 }
-.show {
+.show{
     visibility: visible;
 }
 
 /* Social */
 .section-social {
     display: flex;
+    max-width: 1130px;
     justify-content: space-between;
     margin-bottom: 100px;
     padding: 0 20px;
@@ -137,6 +142,7 @@ body{
     .section .col-5{
         max-width: none;
     }
+
 
 .dropdown {
   position: relative;
